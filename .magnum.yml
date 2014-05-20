@@ -1,2 +1,2 @@
 before_install:
-  - cat /etc/*-release
+  - rvm rubygems current
