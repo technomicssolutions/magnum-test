@@ -1,3 +1,2 @@
 before_install:
-     - ruby: 2.0.0
      - gem list
