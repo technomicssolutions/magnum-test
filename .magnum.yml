@@ -1,3 +1,2 @@
 before_install:
-     - sudo gem list
- 
+     - sudo apt-get install capistrano -y
