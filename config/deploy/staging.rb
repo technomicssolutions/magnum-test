@@ -21,7 +21,7 @@ server '107.170.14.65', user: 'deployer', port: '202', roles: %w{web app}, my_pr
 # you can see them in [net/ssh documentation](http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start)
 # set it globally
   set :ssh_options, {
-    keys: %w(/root/.ssh/id_rsa_stag),
+    keys: %w(/home/magnum/.ssh/id_rsa),
     auth_methods: %w(publickey password)
   }
 # and/or per server
