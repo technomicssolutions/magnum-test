@@ -1,3 +1,3 @@
 before_install:
-     - sudo apt-get install libgemplugin-ruby -y 
+     - sudo gem list
  
