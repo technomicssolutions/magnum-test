@@ -1,5 +1,5 @@
-ruby: 2.0.0
- - before_install:
+before_install:
+     - ruby: 2.0.0
      - gem install capistrano -v 3.1.0
      - gem uninstall net-ssh
      - gem uninstall sshkit
