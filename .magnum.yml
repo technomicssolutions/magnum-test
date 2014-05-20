@@ -1,5 +1,1 @@
-before_install:
-  -  hostname
 
-install:
-  - gem install capistrano
